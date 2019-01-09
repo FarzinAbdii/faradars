@@ -1,0 +1,54 @@
+# Linux (Ubuntu / Debian)
+
+    # Python3
+
+        ************** 1 ****************
+        sudo apt-get install python3-pip
+        sudo pip3 install PyQt5 
+        ************** 2 ****************
+        sudo apt-get install python3-pyqt
+        *********************************
+
+    # Python2
+    
+        *********************************
+        sudo apt-get install python-pip  
+        sudo pip install Python-Qt5
+        *********************************
+  
+  
+# Windows
+         
+          ************************* install pip on windows *************************************************
+          On Windows pip3 should be in the Scripts path of your Python installation:
+          C:\path\to\python\Scripts\pip3
+          Use:
+          where python
+          to find out your where the Python executable(s) is/are located. The result should look like this:
+          C:\path\to\python\python.exe
+          or:
+          C:\path\to\python\python3.exe
+          You can if check pip3 works with this absolute path:
+          C:\path\to\python\Scripts\pip3
+          if yes, add C:\path\to\python\Scripts to your environmental variable PATH
+          
+          Link: https://stackoverflow.com/questions/41501636/how-to-install-pip3-on-windows
+          ***************************************************************************************************
+          
+          ********************************* install PyQt5 *************************************
+          pip3 install PyQt5
+          
+          Error: https://stackoverflow.com/questions/16846501/how-to-install-pyqt5-on-windows
+          *************************************************************************************
+          
+ # Mac   
+ 
+          ******************************************************************************************
+          install Homebrew: https://brew.sh
+          brew install pyqt 
+          brew install pyqt5
+          
+          Link: https://stackoverflow.com/questions/34583811/how-can-i-install-pyqt5-on-mac/34585171
+          ******************************************************************************************
+          
+          
